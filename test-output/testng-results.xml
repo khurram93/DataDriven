@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6058" started-at="2018-08-11T16:08:11Z" finished-at="2018-08-11T16:08:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6058" started-at="2018-08-11T16:08:11Z" finished-at="2018-08-11T16:08:17Z">
+      <class name="com.qa.testcases.AddCustomer">
+        <test-method status="PASS" signature="addCustomerButtonValidation()[pri:1, instance:com.qa.testcases.AddCustomer@5bc79255]" name="addCustomerButtonValidation" duration-ms="306" started-at="2018-08-11T16:08:12Z" finished-at="2018-08-11T16:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerButtonValidation -->
+        <test-method status="PASS" signature="addingNewCustomer(java.lang.Object, java.lang.Object, java.lang.Object)[pri:2, instance:com.qa.testcases.AddCustomer@5bc79255]" name="addingNewCustomer" duration-ms="818" started-at="2018-08-11T16:08:15Z" data-provider="getData" depends-on-methods="com.qa.testcases.AddCustomer.addCustomerButtonValidation" finished-at="2018-08-11T16:08:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khuraam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharuk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[577401.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingNewCustomer -->
+        <test-method status="PASS" signature="addingNewCustomer(java.lang.Object, java.lang.Object, java.lang.Object)[pri:2, instance:com.qa.testcases.AddCustomer@5bc79255]" name="addingNewCustomer" duration-ms="246" started-at="2018-08-11T16:08:17Z" data-provider="getData" depends-on-methods="com.qa.testcases.AddCustomer.addCustomerButtonValidation" finished-at="2018-08-11T16:08:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingNewCustomer -->
+      </class> <!-- com.qa.testcases.AddCustomer -->
+      <class name="com.qa.testcases.BankManagerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.BankManagerTest@6e0e048a]" name="setUp" is-config="true" duration-ms="23954" started-at="2018-08-11T16:07:47Z" finished-at="2018-08-11T16:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bankManagerButtonClick()[pri:0, instance:com.qa.testcases.BankManagerTest@6e0e048a]" name="bankManagerButtonClick" duration-ms="281" started-at="2018-08-11T16:08:11Z" finished-at="2018-08-11T16:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerButtonClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.BankManagerTest@6e0e048a]" name="tearDown" is-config="true" duration-ms="1209" started-at="2018-08-11T16:08:18Z" finished-at="2018-08-11T16:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.BankManagerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
